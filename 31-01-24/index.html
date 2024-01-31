@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- styling -->
+    <style>
+        .heading {
+            background-color: limegreen;
+            text-align: center;
+        }
+
+        .main-div {
+            background-color: lightsalmon;
+            display: flex;
+            padding: 20px 5px;
+        }
+
+        .cards{
+            padding: 15px;
+        }
+
+        .cards:nth-child(1) {
+            text-align: center;
+        }
+
+        .cards:nth-child(3) {
+            text-align: right;   
+        }
+
+        .cards:nth-child(4) {
+            text-align: center;
+        }
+
+        .cards:nth-child(odd){
+            background-color: aqua;
+        }
+
+       .post {
+        background-color: gray;
+        padding: 20px; /* It is used for gap inside the container*/
+        margin: 0 30px; /* top, right, bottom, left - gap outside of the container*/
+       }
+
+        /* 
+        display
+        justify-content
+        align-items
+        */
+
+        #card {
+            background-color: black;
+            color: #fff;
+        }
+    </style>
+
+</head>
+<body>
+<!-- DIV Tag in detail and working on classes, ID's, color, background and Alignment -->
+
+    <h1 class="heading">Working on a div tag</h1>
+
+    <div class="main-div">
+        <div class="cards">
+            <h2>Python</h2>
+            <p>Python is a object oriented programing language, it is simple to learn and easy build anything</p>
+        </div>
+    
+    
+        <div class="cards" id="card">
+            <h2>Java</h2>
+            <p>Java is programing language which used to build a complex application like web app, mobile app.</p>
+        </div>
+    
+    
+        <div class="cards">
+            <h2>Golang</h2>
+            <p>Golang is a backend programing language used to build servers side complex applicaiton with the robust performance</p>
+        </div>
+
+        <div class="cards">
+            <h2>Golang</h2>
+            <p>Golang is a backend programing language used to build servers side complex applicaiton with the robust performance</p>
+        </div>
+    </div>
+
+    <div class="post">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/502px-Logo_of_YouTube_%282015-2017%29.svg.png?20200109235614" alt="">
+        <h2>Youtube</h2>
+        <p>This is a video streaming application use to view the videos.</p>
+    </div>
+
+
+</body>
+</html>
