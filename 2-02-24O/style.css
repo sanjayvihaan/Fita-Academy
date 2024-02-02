@@ -1,0 +1,82 @@
+body {
+    background-color: black;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar img {
+    width: 50px;
+    height: auto;
+}
+
+.nav-items{
+    display: flex;;
+    align-items: center;
+    /* gap: 30px; */
+}
+
+.nav-items ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.nav-items ul a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.contact-btn a {
+    background-color: aquamarine;
+    color: black !important;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    padding: 20px 50px;
+}
+
+.main-img, .main-bio {
+    width: 48%;
+}
+
+.main-img img{
+    width: 600px;
+    height: auto;
+}
+
+.main-bio {
+    color: white;
+}
+
+.main-bio h1 {
+    font-size: 50px;
+    color: aquamarine;
+}
+
+.main-bio h2 {
+    color: violet;
+}
+
+.main-bio p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.main-bio button {
+    background-color: aquamarine;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+}
