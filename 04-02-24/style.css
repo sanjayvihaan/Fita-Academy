@@ -1,0 +1,35 @@
+.table-container {
+    width: 100%;
+    margin: 30px;
+}
+
+
+.table-container, tr, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 12px;
+    width: 20%;
+}
+
+/* .table-container tr:nth-child(even) {
+    background-color: #000;
+} */
+
+#bg-color{
+    background-color: green;
+}
+
+
+.form-cont {
+    background-color: green;
+    width: 50%;
+}
+
+
+form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+    padding: 30px;
+}
