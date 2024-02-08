@@ -1,0 +1,72 @@
+CSS - Cascading Styling Sheet
+
+We use this for style an HTML document
+
+
+/* ------------ */
+
+How we use this css?
+
+-> Inline css, Internal css, External css
+
+
+/* ---- */
+
+-> Inline css:
+<p style="color:white">This is a paragraph</p>
+
+Any tag inside with the style attribute is known as Inline CSS
+
+
+/* ---- */
+-> Internal CSS:
+
+In a html document, we have the <head></head> - inside this header tag we need to create
+style inside the style we can call the tag use the tag name, classes, or ID
+
+<h1>This is a heading</h1>
+
+
+/* ----- */
+
+-> External CSS:
+
+For the external css - we need to create a new styling sheet with .css extention, and need
+to connect inside the html document inside in the head tag.
+
+<img src="https://plus.unsplash.com/premium_photo-1683140655656-20448abc55da"/>
+
+I need to make this image background to green/black
+
+We will try by tag name, class or id
+
+/* by tag name */
+img {
+    width: 500px;
+} 
+
+
+/* by class name */
+We need to go inside the style file, class name access 
+
+/* by ID name */
+
+
+Which one we should prefer to write css:
+-> External CSS
+
+
+How to add the favicon:
+To add the favicon we need to go inside the html document, after that need to go inside the
+head tag, here we need to create a 
+
+link tag - rel = icon, type= "image/x-icon" href="imglink"
+
+/* --- */
+
+/* Task */ 
+
+Create a html document, 
+
+   1. You need to connect with the style.sheet, add the h1, p, image, ankle tag, 
+    and change the font-size and color of h1, p, and ankle tag also increase the image width using ID.
