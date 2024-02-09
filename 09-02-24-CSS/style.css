@@ -1,0 +1,87 @@
+/* Syntax for the CSS */
+/*  {
+    background-color: white;
+    font-size: 30px;
+    text-align: center;
+    color: blue;
+} */
+
+
+h1 {
+    color: blue;
+}
+
+/* 
+h1 - selector, 
+color - property, - declaration
+blue - vlue;,
+
+
+jlasdfjlaf
+
+
+ldjsfaljlasjflj
+
+*/
+
+
+/* Selectors */
+
+.header3 {
+    text-align: center;
+    font-size: 50px;
+}
+
+#para {
+    text-align: center;
+    font-size: 30px;
+}
+
+/* h3.header3{
+    text-align: right;
+} */
+
+/* sep */
+
+/* h1 {
+    color: red;
+    text-align: center;
+}
+
+p {
+    color: red;
+    text-align: center;
+}
+
+h3 {
+    color: red;
+    text-align: center;
+} */
+
+/* 
+h1, p, h3 {
+    color: red;
+    text-align: center;
+} */
+
+
+/* This how we write the comment */
+
+/* p {
+    font-size: 50px; /* I have given the font size to 50px to view it properly
+} */
+
+
+/* Colors */
+/* Color: RGB, HEX, HSL
+RGB - R - Red, G - Green , B- blue
+Hex - #000000
+HSL - Hue, saturation, Lightness */
+
+
+#para {
+    text-align: center;
+    font-size: 30px;
+    color: #0000ff;
+    border: 2px dotted rgb(255, 255, 255);
+}
