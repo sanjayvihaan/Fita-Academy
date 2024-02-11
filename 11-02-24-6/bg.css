@@ -1,0 +1,39 @@
+body {
+    background-color: blue;
+
+}
+
+
+.main-bg {
+    background-color: aqua;
+    height: 1800px;
+}
+
+.container {
+    background-color: white;
+}
+
+div.card {
+    background-color: rgba(255, 0, 0, .3);
+}
+
+/* Bg-image */
+
+.main-bg {
+ /* background-color: aqua;
+ background-image: url("https://i.ibb.co/j8cC8rL/amazon-2-0.png");
+ background-repeat: no-repeat;
+ background-position: left bottom; */
+
+
+ background: black url('https://i.ibb.co/j8cC8rL/amazon-2-0.png') no-repeat right top;
+}
+
+/* .card p{
+    background-image: url("https://i.ibb.co/j8cC8rL/amazon-2-0.png");
+}
+
+.bg-img {
+    background-image: url('https://i.ibb.co/j8cC8rL/amazon-2-0.png');
+    background-repeat: repeat-y;
+} */
