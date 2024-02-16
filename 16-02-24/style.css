@@ -1,0 +1,46 @@
+h2 {
+    /* border-width: 2px;
+    border-style: hidden;
+    border-color: violet;
+    */
+
+    border: 2px solid red; 
+    display: inline-flex;
+    border-radius: 20px;
+
+    border-left-style: dotted;
+    border-bottom-style: dotted ;
+
+    /* border: none; * It removes all the spaces occupied /
+    /* border: hidden; it removes only the specified and mentioned tag or style */
+
+    /* margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px; */
+
+    /* margin: 50px; */
+
+    margin: 50px 100px 50px 100px;  
+    /* margin : top, right, bottom, left  - shorthand method*/
+
+
+    padding-top: 50px;
+    padding-right: 50px ;
+    padding-bottom: 50px;
+    padding-left: 50px;
+
+    padding: 50px;
+
+    padding: 50px 100px 50px 100px;
+
+    max-width: 100px;
+    min-width: 400px;
+    width: 500px;
+
+    max-height: 500px;
+    min-height: 200px;
+    height: 300px;
+}
+
+

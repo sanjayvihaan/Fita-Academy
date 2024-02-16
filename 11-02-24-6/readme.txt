@@ -21,11 +21,11 @@ a. background-color
 
 b. background-img
 
-c. background-repeat
+c. background-repeat - norepeat
 
  d. background-attachment - fixed, scroll, local
  Reference - https://developer.mozilla.org/en-US/docs/Web/CSS/background-attachment
 
 e. background-Position: right top, right bottom
 
-f Background - bg-color, bg-img, bg-repeat, bg-Position, bg-attachment.(This will be called as shorthand method)
+f Background - bg-color, bg-img, bg-repeat, bg-Position, bg-attachment. (This will be called as shorthand method)

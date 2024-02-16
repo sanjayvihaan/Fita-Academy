@@ -20,20 +20,21 @@ div.card {
 /* Bg-image */
 
 .main-bg {
- /* background-color: aqua;
- background-image: url("https://i.ibb.co/j8cC8rL/amazon-2-0.png");
+ /* background-color: aqua; */
+ /* background-image: url("https://i.ibb.co/j8cC8rL/amazon-2-0.png");
  background-repeat: no-repeat;
  background-position: left bottom; */
 
 
- background: black url('https://i.ibb.co/j8cC8rL/amazon-2-0.png') no-repeat right top;
+ /* background: black url('https://i.ibb.co/j8cC8rL/amazon-2-0.png') no-repeat right top; */
 }
 
 /* .card p{
     background-image: url("https://i.ibb.co/j8cC8rL/amazon-2-0.png");
-}
+} */
 
 .bg-img {
     background-image: url('https://i.ibb.co/j8cC8rL/amazon-2-0.png');
     background-repeat: repeat-y;
-} */
+    height: 100vh;
+}
