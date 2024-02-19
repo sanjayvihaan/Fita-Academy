@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Position : Static -->
+    <h2 class="ps-sticky">Position: static</h2>
+    <p>An element with position: static; is not positioned in any special way; i
+        t is always positioned according to the normal flow of the page:</p>
+
+    <div class="static">
+        This is a div element has position:static
+    </div>
+
+    <!-- Position : Relative -->
+    <h2>Position: relative</h2>
+<p>An element with position: relative; is positioned relative to its normal position:</p>
+
+    <!-- <div class="relative">
+        This is a div element has position:relative
+    </div> -->
+
+  <div class="relatives">
+    <div class="box" id="one">One</div>
+    <div class="box" id="two">Two</div>
+    <div class="box" id="three">Three</div>
+    <div class="box" id="four">Four</div>
+  </div>
+
+
+  <!-- Position Fixed -->
+  <!--An element with position: fixed; is positioned relative to the viewport, 
+    which means it always stays in the same place even if the page is scrolled. 
+    The top, right, bottom, and left properties are used to position the element. 
+ -->
+
+ <!-- Position Absolute -->
+
+ <h2>Position Absolute</h2>
+ <p>An element with position: absolute; 
+    is positioned relative to the nearest positioned ancestor 
+    (instead of positioned relative to the viewport, like fixed):</p>
+
+ <div class="relative1">
+    This div element has position: relative;
+    <div class="absolute1">This div element has position: absolute;</div>
+  </div>
+
+
+
+  <!-- Position : Sticky -->
+  <p>Try to <b>scroll</b> inside this frame to understand how sticky positioning works.</p>
+
+  <div class="sticky">I am sticky!</div>
+  
+  <div style="padding-bottom:2000px">
+    <p>In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.</p>
+    <p>Scroll back up to remove the stickyness.</p>
+    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+  </div>
+
+</body>
+</html>
