@@ -20,3 +20,8 @@ document.getElementByID('Name_of_ID'); // Grabs the element with the id name fro
 document.getElementByClassName('Name_of_class'); Grabs the element with the class name from the connected HTML file.
 
 document.getElementByTagName('Name_of_tag');Grabs the element with the tag name from the connected HTML file.
+
+
+
+Build A Notes App in HTML CSS & JavaScript
+
